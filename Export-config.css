@@ -1,0 +1,109 @@
+body
+{
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+table
+{
+	border: 1px solid #e3e3e3;
+	border-collapse: collapse;
+}
+
+tr:nth-child(even) 
+{
+	background: #f5f5f5;	
+}
+
+tr:nth-child(odd) 
+{
+	background: #f1f1f1;	
+}
+
+
+th, td 
+{
+	padding: 7px;
+}
+
+
+tr:hover
+{
+	background:#A1E5DC;
+}
+
+tr
+{
+	-webkit-transition: color 1s ease;
+	-ms-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	-o-transition: color 1s ease;
+ }
+ 
+ 
+th
+{
+	padding: 3px;
+	background: #2b5797;
+	color: white;
+	font-size: 13px;
+	text-align:center;
+	border: 1px solid #e3e3e3;		
+}
+
+
+td
+{
+	border: 1px solid #e3e3e3;
+	padding: 5px;
+	font-size: 11px;
+	text-align:left;
+}
+
+
+
+
+.Main_Title
+{
+	color: #2d89ef;
+	font-weight:bold;
+	font-size:16pt;
+	font-family: Segoe UI light, Arial;
+}
+
+.subtitle
+{
+	font-family: Segoe UI Light, Arial;
+	font-weight:bold;	
+	font-size: 11pt;
+	color:#00a300;
+}
+
+.running
+{
+	color: black;
+}
+
+.stopped
+{
+	color: red;
+}
+
+
+.Settings_List_CSS
+{
+	color: #2b5797;
+	font-weight:bold;		
+	font-size:16px;
+}
+
+.Power_options_CSS
+{
+	color:#7e3878;
+	font-size:15px;
+}
+
+
+
+
+
